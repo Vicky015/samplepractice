@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="350" started-at="2021-04-05T03:28:08Z" finished-at="2021-04-05T03:28:09Z">
+    <groups>
+      <group name="regression">
+        <method signature="groups.tc333()[pri:0, instance:org.testng.groups@51565ec2]" name="tc333" class="org.testng.groups"/>
+        <method signature="groups.tc888()[pri:0, instance:org.testng.groups@51565ec2]" name="tc888" class="org.testng.groups"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="groups.tc111()[pri:0, instance:org.testng.groups@51565ec2]" name="tc111" class="org.testng.groups"/>
+        <method signature="groups.tc666()[pri:0, instance:org.testng.groups@51565ec2]" name="tc666" class="org.testng.groups"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="groups.tc222()[pri:0, instance:org.testng.groups@51565ec2]" name="tc222" class="org.testng.groups"/>
+        <method signature="groups.tc777()[pri:0, instance:org.testng.groups@51565ec2]" name="tc777" class="org.testng.groups"/>
+      </group> <!-- sanity -->
+      <group name="retesting">
+        <method signature="groups.tc444()[pri:0, instance:org.testng.groups@51565ec2]" name="tc444" class="org.testng.groups"/>
+      </group> <!-- retesting -->
+      <group name="rerun">
+        <method signature="groups.tc555()[pri:0, instance:org.testng.groups@51565ec2]" name="tc555" class="org.testng.groups"/>
+      </group> <!-- rerun -->
+    </groups>
+    <test name="Test" duration-ms="350" started-at="2021-04-05T03:28:08Z" finished-at="2021-04-05T03:28:09Z">
+      <class name="org.testng.groups">
+        <test-method status="PASS" signature="tc555()[pri:0, instance:org.testng.groups@51565ec2]" name="tc555" duration-ms="204" started-at="2021-04-05T03:28:08Z" finished-at="2021-04-05T03:28:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc555 -->
+        <test-method status="PASS" signature="tc111()[pri:0, instance:org.testng.groups@51565ec2]" name="tc111" duration-ms="80" started-at="2021-04-05T03:28:08Z" finished-at="2021-04-05T03:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc111 -->
+        <test-method status="PASS" signature="tc333()[pri:0, instance:org.testng.groups@51565ec2]" name="tc333" duration-ms="76" started-at="2021-04-05T03:28:08Z" finished-at="2021-04-05T03:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc333 -->
+        <test-method status="PASS" signature="tc222()[pri:0, instance:org.testng.groups@51565ec2]" name="tc222" duration-ms="75" started-at="2021-04-05T03:28:08Z" finished-at="2021-04-05T03:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc222 -->
+        <test-method status="PASS" signature="tc444()[pri:0, instance:org.testng.groups@51565ec2]" name="tc444" duration-ms="127" started-at="2021-04-05T03:28:08Z" finished-at="2021-04-05T03:28:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc444 -->
+        <test-method status="PASS" signature="tc666()[pri:0, instance:org.testng.groups@51565ec2]" name="tc666" duration-ms="64" started-at="2021-04-05T03:28:08Z" finished-at="2021-04-05T03:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc666 -->
+        <test-method status="PASS" signature="tc777()[pri:0, instance:org.testng.groups@51565ec2]" name="tc777" duration-ms="10" started-at="2021-04-05T03:28:08Z" finished-at="2021-04-05T03:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc777 -->
+        <test-method status="PASS" signature="tc888()[pri:0, instance:org.testng.groups@51565ec2]" name="tc888" duration-ms="7" started-at="2021-04-05T03:28:08Z" finished-at="2021-04-05T03:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc888 -->
+      </class> <!-- org.testng.groups -->
+      <class name="org.testng.Asrt">
+        <test-method status="PASS" signature="tc1()[pri:0, instance:org.testng.Asrt@482f8f11]" name="tc1" duration-ms="2" started-at="2021-04-05T03:28:09Z" finished-at="2021-04-05T03:28:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc2()[pri:0, instance:org.testng.Asrt@482f8f11]" name="tc2" duration-ms="81" started-at="2021-04-05T03:28:09Z" finished-at="2021-04-05T03:28:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+      </class> <!-- org.testng.Asrt -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
