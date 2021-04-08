@@ -22,6 +22,11 @@ public class rough extends Base {
 	//	WebElement pass = driver.findElement(By.id("pass"));
 	//	base.typeKeys(pass,base.getDataFromExcel("E:\\java prog\\mvn\\excel sheet\\adactin.xlsx","Booking",1,0));
 		base.createSheet("E:\\java prog\\mvn\\excel sheet\\adactin.xlsx","Booking",4,4,"java");
+		base.createSheet("E:\\java prog\\mvn\\excel sheet\\adactin.xlsx","Booking",4,4,"java");
+		
+		base.createSheet("E:\\java prog\\mvn\\excel sheet\\adactin.xlsx","Booking",4,4,"java");
+		
+		base.createSheet("E:\\java prog\\mvn\\excel sheet\\adactin.xlsx","Booking",4,4,"java");
 		
 		
 		
